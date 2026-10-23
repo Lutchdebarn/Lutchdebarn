@@ -80,12 +80,11 @@ Un shell inspiré de bash : **AST** avec parenthèses, `&&` / `||`, pipes, redir
   <img src="./assets/skills.svg" alt="skills dashboard" width="100%">
 </p>
 
-<sub>
-
-`assets/skills.svg` est généré par [`scripts/gen-skills.sh`](./scripts/gen-skills.sh) depuis [`skills.conf`](./skills.conf) : une GitHub Action lint le script (shellcheck), régénère le panneau et le commit à chaque modif.
-**UP** = maîtrisé · **SYNCING** = en cours d'apprentissage · **PLANNED** = prochaine étape du cursus.
-
-</sub>
+<p align="center">
+  <sub><b>UP</b> = maîtrisé · <b>SYNCING</b> = en apprentissage · <b>PLANNED</b> = prochaine étape</sub>
+  <br>
+  <sub>généré par <a href="./scripts/gen-skills.sh"><code>gen-skills.sh</code></a> depuis <a href="./skills.conf"><code>skills.conf</code></a> · régénéré par GitHub Actions à chaque modif</sub>
+</p>
 
 ## ⟶ Activité
 
