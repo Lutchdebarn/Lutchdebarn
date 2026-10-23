@@ -10,7 +10,7 @@
 </p>
 
 ```console
-$ traceroute ldebarno
+$ traceroute ludebarn
  1  42-lausanne         étudiant en tronc commun · Lausanne, CH
  2  layer-4             sockets TCP, I/O non-bloquantes, poll(), HTTP/1.1
  3  layer-7             reverse proxy nginx, TLS, CGI, API REST
@@ -95,7 +95,7 @@ Un shell inspiré de bash : **AST** avec parenthèses, `&&` / `||`, pipes, redir
 ---
 
 <p align="center">
-  <a href="https://profile.intra.42.fr/users/ldebarno"><img src="https://img.shields.io/badge/intra-ldebarno-000000?style=flat-square&logo=42&logoColor=white"></a>
+  <a href="https://profile.intra.42.fr/users/ludebarn"><img src="https://img.shields.io/badge/intra-ludebarn-000000?style=flat-square&logo=42&logoColor=white"></a>
   <br>
   <sub><code>$ exit 0</code></sub>
 </p>

@@ -62,7 +62,7 @@
 
   <!-- identity -->
   <g class="mono">
-    <text x="56" y="88" font-size="16" fill="#4ade80">ldebarno@42lausanne<tspan fill="#64748b">:</tspan><tspan fill="#22d3ee">~</tspan><tspan fill="#64748b">$</tspan><tspan fill="#e2e8f0"> whoami</tspan></text>
+    <text x="56" y="88" font-size="16" fill="#4ade80">ludebarn@42lausanne<tspan fill="#64748b">:</tspan><tspan fill="#22d3ee">~</tspan><tspan fill="#64748b">$</tspan><tspan fill="#e2e8f0"> whoami</tspan></text>
     <text x="54" y="160" font-size="52" font-weight="700" fill="#e2e8f0" letter-spacing="2">LUCAS DEBARNOT</text>
     <text x="56" y="200" font-size="20" fill="#22d3ee">network <tspan fill="#64748b">·</tspan> devops <tspan fill="#64748b">·</tspan> systems</text>
     <text x="56" y="252" font-size="14" fill="#64748b"># from the syscall to the pipeline</text>
