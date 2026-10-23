@@ -83,7 +83,7 @@ Un shell inspiré de bash : **AST** avec parenthèses, `&&` / `||`, pipes, redir
 <p align="center">
   <sub><b>UP</b> = maîtrisé · <b>SYNCING</b> = en apprentissage · <b>PLANNED</b> = prochaine étape</sub>
   <br>
-  <sub>généré par <a href="./scripts/gen-skills.sh"><code>gen-skills.sh</code></a> depuis <a href="./skills.conf"><code>skills.conf</code></a> · régénéré par GitHub Actions à chaque modif</sub>
+  <sub>généré par <a href="https://github.com/Lutchdebarn/Lutchdebarn/blob/main/scripts/gen-skills.sh"><code>gen-skills.sh</code></a> depuis <a href="https://github.com/Lutchdebarn/Lutchdebarn/blob/main/skills.conf"><code>skills.conf</code></a> · régénéré par GitHub Actions à chaque modif</sub>
 </p>
 
 ## ⟶ Activité
