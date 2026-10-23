@@ -90,10 +90,6 @@ Un shell inspiré de bash : **AST** avec parenthèses, `&&` / `||`, pipes, redir
 ## ⟶ Activité
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Lutchdebarn&bg_color=0a0f14&color=9fb3c2&line=22d3ee&point=4ade80&area=true&area_color=22d3ee&hide_border=true&custom_title=packets%20sent" alt="activité" width="100%">
-</p>
-
-<p align="center">
   <img src="https://streak-stats.demolab.com?user=Lutchdebarn&theme=dark&background=0a0f14&ring=22d3ee&fire=4ade80&currStreakLabel=22d3ee&sideLabels=9fb3c2&dates=64748b&currStreakNum=e2e8f0&sideNums=e2e8f0&hide_border=true" alt="streak" height="170">
 </p>
 
