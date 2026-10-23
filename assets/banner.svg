@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#1b2a36" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" x2="1">
+      <stop offset="0" stop-color="#0a0f14" stop-opacity="1"/>
+      <stop offset="0.45" stop-color="#0a0f14" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#0a0f14" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .mono { font-family: 'JetBrains Mono','Fira Code',Menlo,Consolas,monospace; }
+      .link { fill: none; stroke: #1f4a5a; stroke-width: 1.6; }
+      .node { fill: #0d1820; stroke: #22d3ee; stroke-width: 1.6; }
+      .lbl  { fill: #9fb3c2; font-size: 12px; }
+      .port { fill: #4ade80; font-size: 11px; }
+      .cursor { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" rx="14" fill="#0a0f14"/>
+  <rect width="1200" height="320" rx="14" fill="url(#grid)"/>
+
+  <!-- topology -->
+  <g transform="translate(620 0)">
+    <path id="p1" class="link" d="M60 160 L200 90"/>
+    <path id="p2" class="link" d="M60 160 L200 230"/>
+    <path id="p3" class="link" d="M200 90 L360 90"/>
+    <path id="p4" class="link" d="M200 90 L360 200"/>
+    <path id="p5" class="link" d="M360 90 L520 70"/>
+    <path id="p6" class="link" d="M360 200 L520 250"/>
+    <path id="p7" class="link" d="M200 230 L360 200"/>
+    <path id="p8" class="link" d="M360 90 L360 200"/>
+
+    <g filter="url(#glow)">
+      <circle r="3.5" fill="#22d3ee"><animateMotion dur="2.4s" repeatCount="indefinite"><mpath href="#p1"/></animateMotion></circle>
+      <circle r="3.5" fill="#22d3ee"><animateMotion dur="2.4s" begin="1.2s" repeatCount="indefinite"><mpath href="#p3"/></animateMotion></circle>
+      <circle r="3.5" fill="#4ade80"><animateMotion dur="2s" begin="0.4s" repeatCount="indefinite"><mpath href="#p5"/></animateMotion></circle>
+      <circle r="3.5" fill="#4ade80"><animateMotion dur="2.8s" begin="0.8s" repeatCount="indefinite"><mpath href="#p4"/></animateMotion></circle>
+      <circle r="3.5" fill="#22d3ee"><animateMotion dur="3s" begin="0.2s" repeatCount="indefinite"><mpath href="#p6"/></animateMotion></circle>
+      <circle r="3.5" fill="#a78bfa"><animateMotion dur="2.6s" begin="1.5s" repeatCount="indefinite"><mpath href="#p2"/></animateMotion></circle>
+      <circle r="3.5" fill="#a78bfa"><animateMotion dur="2.6s" begin="0.6s" repeatCount="indefinite"><mpath href="#p7"/></animateMotion></circle>
+    </g>
+
+    <g class="mono">
+      <circle class="node" cx="60" cy="160" r="16"/><text class="lbl" x="60" y="196" text-anchor="middle">client</text>
+      <rect class="node" x="176" y="72" width="48" height="36" rx="6"/><text class="lbl" x="200" y="62" text-anchor="middle">nginx</text><text class="port" x="200" y="95" text-anchor="middle">:443</text>
+      <rect class="node" x="176" y="212" width="48" height="36" rx="6"/><text class="lbl" x="200" y="268" text-anchor="middle">webserv</text><text class="port" x="200" y="235" text-anchor="middle">:8080</text>
+      <rect class="node" x="336" y="72" width="48" height="36" rx="6"/><text class="lbl" x="360" y="62" text-anchor="middle">api</text><text class="port" x="360" y="95" text-anchor="middle">:3000</text>
+      <rect class="node" x="336" y="182" width="48" height="36" rx="6"/><text class="lbl" x="360" y="238" text-anchor="middle">cgi</text><text class="port" x="360" y="205" text-anchor="middle">fork</text>
+      <circle class="node" cx="520" cy="70" r="14"/><text class="lbl" x="520" y="104" text-anchor="middle">postgres</text>
+      <circle class="node" cx="520" cy="250" r="14"/><text class="lbl" x="520" y="284" text-anchor="middle">/bin/sh</text>
+    </g>
+  </g>
+
+  <rect width="760" height="320" rx="14" fill="url(#fade)"/>
+
+  <!-- identity -->
+  <g class="mono">
+    <text x="56" y="88" font-size="16" fill="#4ade80">ldebarno@42lausanne<tspan fill="#64748b">:</tspan><tspan fill="#22d3ee">~</tspan><tspan fill="#64748b">$</tspan><tspan fill="#e2e8f0"> whoami</tspan></text>
+    <text x="54" y="160" font-size="52" font-weight="700" fill="#e2e8f0" letter-spacing="2">LUCAS DEBARNOT</text>
+    <text x="56" y="200" font-size="20" fill="#22d3ee">network <tspan fill="#64748b">·</tspan> devops <tspan fill="#64748b">·</tspan> systems</text>
+    <text x="56" y="252" font-size="14" fill="#64748b"># from the syscall to the pipeline</text>
+    <rect class="cursor" x="56" y="268" width="10" height="18" fill="#4ade80"/>
+  </g>
+</svg>

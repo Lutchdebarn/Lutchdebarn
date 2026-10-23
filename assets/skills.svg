@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="568" viewBox="0 0 1200 568">
+  <style>
+    .mono { font-family: 'JetBrains Mono','Fira Code',Menlo,Consolas,monospace; }
+    .tile { fill: #0d1820; stroke: #1b2a36; stroke-width: 1; }
+    .name { fill: #e2e8f0; font-size: 14px; font-weight: 600; }
+    .note { fill: #64748b; font-size: 11px; }
+    .sec  { fill: #22d3ee; font-size: 13px; letter-spacing: 1px; }
+    .pulse { animation: pulse 1.6s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .25; } }
+  </style>
+  <rect width="1200" height="568" rx="14" fill="#0a0f14"/>
+  <g class="mono">
+    <circle cx="38" cy="40" r="5" fill="#f87171"/>
+    <circle cx="56" cy="40" r="5" fill="#fbbf24"/>
+    <circle cx="74" cy="40" r="5" fill="#4ade80"/>
+    <text x="96" y="45" font-size="15" fill="#9fb3c2">skills.monitoring <tspan fill="#64748b">— dashboard</tspan></text>
+    <text x="1168" y="45" font-size="13" text-anchor="end" fill="#64748b"><tspan fill="#4ade80">● 15 up</tspan>   <tspan fill="#fbbf24">● 4 syncing</tspan>   <tspan fill="#94a3b8">● 4 planned</tspan></text>
+    <line x1="32" y1="66" x2="1168" y2="66" stroke="#1b2a36"/>
+    <text class="sec" x="32" y="110">▸ systems</text>
+    <rect class="tile" x="32" y="130" width="178" height="58" rx="8"/>
+    <rect x="32" y="130" width="3" height="58" rx="1.5" fill="#4ade80"/>
+    <circle cx="194" cy="148" r="4" fill="#4ade80"/>
+    <text class="name" x="46" y="153">Bash</text>
+    <text class="note" x="46" y="173"><tspan fill="#4ade80">UP</tspan> · scripting, pipes</text>
+    <rect class="tile" x="222" y="130" width="178" height="58" rx="8"/>
+    <rect x="222" y="130" width="3" height="58" rx="1.5" fill="#4ade80"/>
+    <circle cx="384" cy="148" r="4" fill="#4ade80"/>
+    <text class="name" x="236" y="153">Linux</text>
+    <text class="note" x="236" y="173"><tspan fill="#4ade80">UP</tspan> · fd, signaux</text>
+    <rect class="tile" x="412" y="130" width="178" height="58" rx="8"/>
+    <rect x="412" y="130" width="3" height="58" rx="1.5" fill="#4ade80"/>
+    <circle cx="574" cy="148" r="4" fill="#4ade80"/>
+    <text class="name" x="426" y="153">C / C++</text>
+    <text class="note" x="426" y="173"><tspan fill="#4ade80">UP</tspan> · C99, C++98</text>
+    <rect class="tile" x="602" y="130" width="178" height="58" rx="8"/>
+    <rect x="602" y="130" width="3" height="58" rx="1.5" fill="#4ade80"/>
+    <circle cx="764" cy="148" r="4" fill="#4ade80"/>
+    <text class="name" x="616" y="153">Make</text>
+    <text class="note" x="616" y="173"><tspan fill="#4ade80">UP</tspan> · builds 42</text>
+    <rect class="tile" x="792" y="130" width="178" height="58" rx="8"/>
+    <rect x="792" y="130" width="3" height="58" rx="1.5" fill="#4ade80"/>
+    <circle cx="954" cy="148" r="4" fill="#4ade80"/>
+    <text class="name" x="806" y="153">Git</text>
+    <text class="note" x="806" y="173"><tspan fill="#4ade80">UP</tspan> · flow PR, rebase</text>
+    <rect class="tile" x="982" y="130" width="178" height="58" rx="8"/>
+    <rect x="982" y="130" width="3" height="58" rx="1.5" fill="#4ade80"/>
+    <circle cx="1144" cy="148" r="4" fill="#4ade80"/>
+    <text class="name" x="996" y="153">GDB · Valgrind</text>
+    <text class="note" x="996" y="173"><tspan fill="#4ade80">UP</tspan> · debug, leaks</text>
+    <text class="sec" x="32" y="222">▸ network</text>
+    <rect class="tile" x="32" y="242" width="178" height="58" rx="8"/>
+    <rect x="32" y="242" width="3" height="58" rx="1.5" fill="#4ade80"/>
+    <circle cx="194" cy="260" r="4" fill="#4ade80"/>
+    <text class="name" x="46" y="265">TCP/IP</text>
+    <text class="note" x="46" y="285"><tspan fill="#4ade80">UP</tspan> · subnetting</text>
+    <rect class="tile" x="222" y="242" width="178" height="58" rx="8"/>
+    <rect x="222" y="242" width="3" height="58" rx="1.5" fill="#4ade80"/>
+    <circle cx="384" cy="260" r="4" fill="#4ade80"/>
+    <text class="name" x="236" y="265">Sockets/poll()</text>
+    <text class="note" x="236" y="285"><tspan fill="#4ade80">UP</tspan> · webserv</text>
+    <rect class="tile" x="412" y="242" width="178" height="58" rx="8"/>
+    <rect x="412" y="242" width="3" height="58" rx="1.5" fill="#4ade80"/>
+    <circle cx="574" cy="260" r="4" fill="#4ade80"/>
+    <text class="name" x="426" y="265">HTTP/1.1</text>
+    <text class="note" x="426" y="285"><tspan fill="#4ade80">UP</tspan> · webserv</text>
+    <rect class="tile" x="602" y="242" width="178" height="58" rx="8"/>
+    <rect x="602" y="242" width="3" height="58" rx="1.5" fill="#4ade80"/>
+    <circle cx="764" cy="260" r="4" fill="#4ade80"/>
+    <text class="name" x="616" y="265">nginx</text>
+    <text class="note" x="616" y="285"><tspan fill="#4ade80">UP</tspan> · reverse proxy</text>
+    <rect class="tile" x="792" y="242" width="178" height="58" rx="8"/>
+    <rect x="792" y="242" width="3" height="58" rx="1.5" fill="#fbbf24"/>
+    <circle class="pulse" cx="954" cy="260" r="4" fill="#fbbf24"/>
+    <text class="name" x="806" y="265">TLS</text>
+    <text class="note" x="806" y="285"><tspan fill="#fbbf24">SYNCING</tspan> · openssl</text>
+    <rect class="tile" x="982" y="242" width="178" height="58" rx="8"/>
+    <rect x="982" y="242" width="3" height="58" rx="1.5" fill="#4ade80"/>
+    <circle cx="1144" cy="260" r="4" fill="#4ade80"/>
+    <text class="name" x="996" y="265">SSH</text>
+    <text class="note" x="996" y="285"><tspan fill="#4ade80">UP</tspan> · clés, tunnels</text>
+    <text class="sec" x="32" y="334">▸ containers</text>
+    <rect class="tile" x="32" y="354" width="178" height="58" rx="8"/>
+    <rect x="32" y="354" width="3" height="58" rx="1.5" fill="#4ade80"/>
+    <circle cx="194" cy="372" r="4" fill="#4ade80"/>
+    <text class="name" x="46" y="377">Docker</text>
+    <text class="note" x="46" y="397"><tspan fill="#4ade80">UP</tspan> · Dockerfiles</text>
+    <rect class="tile" x="222" y="354" width="178" height="58" rx="8"/>
+    <rect x="222" y="354" width="3" height="58" rx="1.5" fill="#4ade80"/>
+    <circle cx="384" cy="372" r="4" fill="#4ade80"/>
+    <text class="name" x="236" y="377">Compose</text>
+    <text class="note" x="236" y="397"><tspan fill="#4ade80">UP</tspan> · healthchecks</text>
+    <rect class="tile" x="412" y="354" width="178" height="58" rx="8"/>
+    <rect x="412" y="354" width="3" height="58" rx="1.5" fill="#4ade80"/>
+    <circle cx="574" cy="372" r="4" fill="#4ade80"/>
+    <text class="name" x="426" y="377">GitHub Actions</text>
+    <text class="note" x="426" y="397"><tspan fill="#4ade80">UP</tspan> · CI lint/build</text>
+    <rect class="tile" x="602" y="354" width="178" height="58" rx="8"/>
+    <rect x="602" y="354" width="3" height="58" rx="1.5" fill="#64748b"/>
+    <circle cx="764" cy="372" r="4" fill="#64748b"/>
+    <text class="name" x="616" y="377">Kubernetes</text>
+    <text class="note" x="616" y="397"><tspan fill="#64748b">PLANNED</tspan> · K3s, K3d</text>
+    <rect class="tile" x="792" y="354" width="178" height="58" rx="8"/>
+    <rect x="792" y="354" width="3" height="58" rx="1.5" fill="#64748b"/>
+    <circle cx="954" cy="372" r="4" fill="#64748b"/>
+    <text class="name" x="806" y="377">Ansible</text>
+    <text class="note" x="806" y="397"><tspan fill="#64748b">PLANNED</tspan> · provisioning</text>
+    <rect class="tile" x="982" y="354" width="178" height="58" rx="8"/>
+    <rect x="982" y="354" width="3" height="58" rx="1.5" fill="#64748b"/>
+    <circle cx="1144" cy="372" r="4" fill="#64748b"/>
+    <text class="name" x="996" y="377">Vagrant</text>
+    <text class="note" x="996" y="397"><tspan fill="#64748b">PLANNED</tspan> · VMs</text>
+    <text class="sec" x="32" y="446">▸ observability</text>
+    <rect class="tile" x="32" y="466" width="178" height="58" rx="8"/>
+    <rect x="32" y="466" width="3" height="58" rx="1.5" fill="#fbbf24"/>
+    <circle class="pulse" cx="194" cy="484" r="4" fill="#fbbf24"/>
+    <text class="name" x="46" y="489">Prometheus</text>
+    <text class="note" x="46" y="509"><tspan fill="#fbbf24">SYNCING</tspan> · metrics</text>
+    <rect class="tile" x="222" y="466" width="178" height="58" rx="8"/>
+    <rect x="222" y="466" width="3" height="58" rx="1.5" fill="#fbbf24"/>
+    <circle class="pulse" cx="384" cy="484" r="4" fill="#fbbf24"/>
+    <text class="name" x="236" y="489">Grafana</text>
+    <text class="note" x="236" y="509"><tspan fill="#fbbf24">SYNCING</tspan> · dashboards</text>
+    <rect class="tile" x="412" y="466" width="178" height="58" rx="8"/>
+    <rect x="412" y="466" width="3" height="58" rx="1.5" fill="#fbbf24"/>
+    <circle class="pulse" cx="574" cy="484" r="4" fill="#fbbf24"/>
+    <text class="name" x="426" y="489">Vault</text>
+    <text class="note" x="426" y="509"><tspan fill="#fbbf24">SYNCING</tspan> · secrets</text>
+    <rect class="tile" x="602" y="466" width="178" height="58" rx="8"/>
+    <rect x="602" y="466" width="3" height="58" rx="1.5" fill="#64748b"/>
+    <circle cx="764" cy="484" r="4" fill="#64748b"/>
+    <text class="name" x="616" y="489">ELK</text>
+    <text class="note" x="616" y="509"><tspan fill="#64748b">PLANNED</tspan> · logs</text>
+    <rect class="tile" x="792" y="466" width="178" height="58" rx="8"/>
+    <rect x="792" y="466" width="3" height="58" rx="1.5" fill="#4ade80"/>
+    <circle cx="954" cy="484" r="4" fill="#4ade80"/>
+    <text class="name" x="806" y="489">PostgreSQL</text>
+    <text class="note" x="806" y="509"><tspan fill="#4ade80">UP</tspan> · Prisma</text>
+  </g>
+</svg>
