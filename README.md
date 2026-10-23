@@ -95,6 +95,7 @@ Un shell inspiré de bash : **AST** avec parenthèses, `&&` / `||`, pipes, redir
 ---
 
 <p align="center">
+  <a href="https://www.linkedin.com/in/lucas-debarnot-3911b6215/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://profile.intra.42.fr/users/ludebarn"><img src="https://img.shields.io/badge/intra-ludebarn-000000?style=flat-square&logo=42&logoColor=white"></a>
   <br>
   <sub><code>$ exit 0</code></sub>
